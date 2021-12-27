@@ -1,38 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset = "utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
+
+  <title>
+    Shirasaki
+  </title>
+  <!-- add icon link -->
+  <link rel = "icon" href ="images/iconmonstr-fish-1.svg" type = "image/x-icon">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-color">
-  <div class="container-fluid nav-font pt-1">
+  <a class="navbar-brand col-2 nav-name" href="#main">
+    Cindy Charella</a>
 
-    
-    <div class="navbar-collapse collapse" id="navbarNav" style="">
-      <ul class="navbar-nav justify-content-center">
-        <li class="nav-item services">
-          <a class="nav-link active" aria-current="page" href="#services">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#project">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#about">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item work-link d-none d-lg-block">
-          <a class="nav-link work-link-color" href="/contact.html">Work request <i class="fas fa-chevron-right ps-1" aria-hidden="true"></i></a>
-        </li>
-      </ul>
-    </div>
-  </div>
 </nav>
 
 <div class="content">
@@ -40,20 +28,49 @@
     <div class="container">
       <div class="row icon-margin">
         <div class="col">
-            <img class="img-fluid icon mt-5" src="images/Hu-Tao.png" style="margin-top: 10em;">
+            <img class="img-fluid icon mt-5" src="images/Cindy.png" style="margin-top: 10em;">
         </div>
       </div>
     </div>
+
+    <div class="container position-relative move-name d-none d-lg-block">
+      <div class="row row-cols-auto">
+        <div class="col-1 d-md-block d-none d-lg-none"></div>
+        <div class="col-sm-2 d-lg-block d-md-none"></div>
+        <div class="row name-card">
+          
+          <div class="col-sm-1 col-sm-6 p-2 myname">
+            Hi! I am <span class="name">Cindy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--UI designer-->
+    <div class="container position-relative d-none d-lg-block ui-design-card">
+      <div class="row row-cols-auto">
+        <div class="col-7"></div>
+        <div class="col skills-bubble name-card">It's your birthday!</div>
+      </div>
+    </div>
+
+    <!--2D Artist-->
+    <div class="container position-relative d-none d-lg-block artist-move">
+      <div class="row row-cols-auto">
+        <div class="col-6 d-none d-sm-none d-md-block d-lg-block"></div>
+        <div class="col artist name-card">I love you 💕</div>
+      </div>
+    </div>
     
-    <div class="container position-relative moving-tittle">
+    <div class="container position-relative moving-title">
       <div class="row">
         <div class="col-12">
           <h1 class="title d-sm-block d-md-none d-lg-block" align="center">
-            Front-End Developer
+            Happy Birthday!
           </h1>
         </div>
         <div class="col-12 based-in" align="center">
-          <h2 class="size-based">Based in Orlando, United States.</h2>
+          <h2 class="size-based" style="font-size: 32px;">I wish you all the best!</h2>
         </div>
       </div>
     </div>
@@ -61,7 +78,7 @@
       <div class="row">
         <div class="col-3"></div>
         <div class="col-6" align="center">
-          <a href="/contact.html" class="nav-link work-link-color lets-work mb-3">Let's work! &gt;</a>
+          <a href="#quote" class="nav-link work-link-color lets-work mb-3">Let's unwrap your present &gt;</a>
         </div>
 
         <!--Line vertical-->
@@ -77,10 +94,10 @@
     <div class="container d-flex justify-content-center">
       <div class="line-yellow"></div>
     </div>
-    <div class="row">
+    <div class="row wishes">
       <div class="col-12">
         <h3 align="center" class="size-quote first-part-quote">
-          Is not just what it looks like and feels like.
+          Wishing you a happiest birthday ever!
         </h3>
       </div>
       <div class="col-12">
@@ -105,7 +122,7 @@
       <div class="col-1"></div>
       <div class="line-vertical purple adjust"></div>
     </div>
-    <!--Tittles-->
+    <!--titles-->
     <div class="row">
       <div class="col-1"></div>
       <div class="col-6">
@@ -115,57 +132,19 @@
       <!--New row-->
       <div class="col-1"></div>
       <div class="col-6">
-        <h3 class="tittle-services">The most creative intuitive workmate.</h3>
+        <h3 class="title-services">The most creative intuitive workmate.</h3>
       </div>
 
       <!--Icon-->
       <div class="col-5"></div>
       <div class="col-2 ms-4"></div>
       <div class="col-6">
-        <img class="img-fluid memoji" src="" >
+        <img class="img-fluid memoji" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/574/original/icon_2.PNG?1633824030" alt="Memoji of Mili">
       </div>
 
       <!--Icons around-->
 
-      <div class="container icons-first d-none d-sm-block">
-        <div class="row">
-          <div class="col-1 me-4"></div>
-          <div class="col-3">
-            <i class="fas fa-code code" aria-hidden="true"></i>
-          </div>
-          <div class="col-1 ms-1">
-            <i class="fab fa-bootstrap bootstrap" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-      <div class="container d-none d-sm-block">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-2">
-            <i class="fab fa-js-square js" aria-hidden="true"></i>
-          </div>
-          <div class="col">
-            <i class="fab fa-github github" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
-      <!--Icons skills for mobile-->
-      <div class="container d-block d-sm-none">
-        <div class="row d-flex justify-content-center">
-          <div class="col-2 size-skill-mobile">
-            <i class="fas fa-code code-mobile" aria-hidden="true"></i>
-          </div>
-          <div class="col-2 size-skill-mobile">
-            <i class="fab fa-bootstrap bootstrap-mobile floating" aria-hidden="true"></i>
-          </div>
-          <div class="col-2 size-skill-mobile">
-            <i class="fab fa-js-square js-mobile" aria-hidden="true"></i>
-          </div>
-          <div class="col-2 size-skill-mobile">
-            <i class="fab fa-github github-mobile" aria-hidden="true"></i>
-          </div>
-        </div>
-      </div>
+      
       <!--Skills grid-->
       <div class="container-fluid">
         <div class="row">
@@ -174,7 +153,7 @@
           <div class="col-sm-5 skill first-space" align="left">
             <div class="container card-skills w-75">
               <i class="fas fa-mouse-pointer pe-1 mouse" aria-hidden="true"></i>
-              <span class="developer-tittle">Developer Skills</span>
+              <span class="developer-title">Developer Skills</span>
               <div class="col description-skill developer-skills" align="left">
                 A full knowledge of HTML / CSS and Javascript. I make
                 responsive applications with Bootstrap and interactive UI's
@@ -187,7 +166,7 @@
           <div class="col-sm-5 skill second-space" align="left">
             <div class="container card-skills w-75">
               <i class="fas fa-object-ungroup pe-1 design" aria-hidden="true"></i>
-              <span class="ui-tittle">UI Design</span>
+              <span class="ui-title">UI Design</span>
               <div class="col description-skill ui-design" align="left">
                 A love for design and a good eye for creativity. I have
                 proficiency in wireframing, color theory and visual
@@ -200,7 +179,7 @@
           <div class="col-sm-5 skill third-space" align="left">
             <div class="container card-skills w-75">
               <i class="fas fa-paint-brush pe-1 art" aria-hidden="true"></i>
-              <span class="artist-tittle">2D Artist</span>
+              <span class="artist-title">2D Artist</span>
               <div class="col description-skill artist-description" align="left">
                 5+ years of digital illustration experience, mastering
                 techniques in Photoshop and Procreate.
@@ -240,16 +219,16 @@
     <div class="container-fluid moving-up-projects moving-project-one">
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
-          <h3 class="project-tittle">My projects</h3>
+          <h3 class="project-title">Our Memories</h3>
         </div>
         <div class="col-1"></div>
         <div class="col-sm-10 d-flex justify-content-center">
-          <h4 class="best-work">A selection of my best projects.</h4>
+          <h4 class="best-work">Here are some of our memories througout this year</h4>
         </div>
         
           <!--1st project-->
           <div class="col-6 d-none d-lg-block d-xl-block">
-            <div class=" card no1">
+            <div class=" card-expand no1">
               <a href="https://www.shecodes.io/workshops/shecodes-basics-2c08e5f7-8f3b-440c-b9a5-8ad15609015e/projects/418137" target="_blank">
                 <img class="project-one img-fluid" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/933/original/project1.jpeg?1634303892" alt="Image of Joe Hisaishi website"></a>
             </div>
@@ -257,7 +236,23 @@
           <!--1st project mobile-->
           <!--2nd Project-->
           <div class="col-6 d-none d-lg-block d-xl-block ">
-            <div class=" card">
+            <div class=" card-expand">
+              <a href="https://www.shecodes.io/workshops/shecodes-plus-e97de30a-83ab-4a9d-a11c-2d346438a9bd/projects/494427" target="_blank">
+                <img class="project-two img-fluid" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/original/project2.jpeg?1634303899" alt="Image of Joe Hisaishi website">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 d-none d-lg-block d-xl-block  mt-5">
+            <div class=" card-expand no1">
+              <a href="https://www.shecodes.io/workshops/shecodes-basics-2c08e5f7-8f3b-440c-b9a5-8ad15609015e/projects/418137" target="_blank">
+                <img class="project-one img-fluid" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/933/original/project1.jpeg?1634303892" alt="Image of Joe Hisaishi website"></a>
+            </div>
+          </div>
+          <!--1st project mobile-->
+          <!--2nd Project-->
+          <div class="col-6 d-none d-lg-block d-xl-block  mt-5">
+            <div class=" card-expand">
               <a href="https://www.shecodes.io/workshops/shecodes-plus-e97de30a-83ab-4a9d-a11c-2d346438a9bd/projects/494427" target="_blank">
                 <img class="project-two img-fluid" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/934/original/project2.jpeg?1634303899" alt="Image of Joe Hisaishi website">
               </a>
@@ -270,31 +265,258 @@
           <p class="curious-message">Curious about the process?</p>
         </div>
         <div class="col-12 d-flex justify-content-center visit-position">
-          <a href="https://github.com/milicodes" target="_blank"><p class="visit-message">Visit my Github</p></a>
+          <a href="https://github.com/synisterwallace" target="_blank"><p class="visit-message">Visit my Github</p></a>
         </div>
       </div>
     </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-12"></div>
+      </div>
+    </div>
+    <!--About me -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="line-yellow-vertical space-line-projects" id="about"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h3 class="about-me-title">About me</h3>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <h3 class="title-services mt-3">Welcome to Mili's World</h3>
+        </div>
+        <!--Cards of About me-->
+        <div class="row margin-cards">
+          <div class="col-sm-4 d-block d-sm-none d-md-none d-lg-block">
+            <div class="card shadow-pink">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-yellow">Education</h5>
+                <p class="card-info">
+                  Certificated Front-End-Developer by SheCodes Workshops in
+                  2021
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Sm for landscape-->
+          <div class="col-sm-6 d-none d-sm-block d-md-none">
+            <div class="card shadow-pink">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-yellow">Education</h5>
+                <p class="card-info">
+                  Certificated Front-End-Developer by SheCodes Workshops in
+                  2021
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Mobile version -->
+          <div class="col-sm-6 d-none d-md-block d-lg-none">
+            <div class="card shadow-pink">
+              <div class="card-body landscape-padding" align="center">
+                <h5 class="card-title card-yellow">Education</h5>
+                <p class="card-info">
+                  Certificated Front-End-Developer by SheCodes Workshops in
+                  2021
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Illustration-->
+          <div class="col-sm-4 d-block d-sm-none d-md-none d-lg-block">
+            <div class="card shadow-blue">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-blue">Illustration</h5>
+                <p class="card-info">
+                  Freelancer illustrator since 2018. A love for portraits &
+                  character design
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Sm for landscape-->
+          <div class="col-sm-6 d-none d-sm-block d-md-none">
+            <div class="card shadow-blue">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-blue">Illustration</h5>
+                <p class="card-info">
+                  Freelancer illustrator since 2018. A love for portraits &
+                  character design
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Mobile version-->
+          <div class="col-sm-6 d-none d-md-block d-lg-none">
+            <div class="card shadow-blue">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-blue">Illustration</h5>
+                <p class="card-info">
+                  Freelancer illustrator since 2018. A love for portraits &
+                  character design
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 d-block d-sm-none d-md-none d-lg-block" align="center"></div>
+          <!--2nd row of cards-->
+          <div class="
+              col-sm-4
+              margin-second-cards
+              d-block d-sm-none d-md-none d-lg-block
+            ">
+            <div class="card shadow-purple">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-purple">Networking</h5>
+                <p class="card-info">
+                  Created a plataform on Instagram to share my journey and
+                  connect with everyone
+                </p>
+              </div>
+            </div>
+          </div>
 
+          <!--Sm for landscape-->
+          <div class="col-sm-6 margin-second-cards d-none d-sm-block d-md-none">
+            <div class="card shadow-purple">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-purple">Networking</h5>
+                <p class="card-info">
+                  Created a plataform on Instagram to share my journey and
+                  connect with everyone
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Mobile Version-->
+          <div class="col-sm-6 margin-second-cards d-none d-md-block d-lg-none">
+            <div class="card shadow-purple">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-purple">Networking</h5>
+                <p class="card-info">
+                  Created a plataform on Instagram to share my journey and
+                  connect with everyone
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Music-->
+          <div class="
+              col-sm-4
+              margin-second-cards
+              d-block d-sm-none d-md-none d-lg-block
+            ">
+            <div class="card shadow-green">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-green">Music &amp; Games</h5>
+                <p class="card-info">
+                  Songwritter, pianist and singer in my freetime. I also enjoy
+                  playing videogames as a hobby
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--sm for landscape-->
+          <div class="col-sm-6 margin-second-cards d-none d-sm-block d-md-none">
+            <div class="card shadow-green">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-green">Music &amp; Games</h5>
+                <p class="card-info">
+                  Songwritter, pianist and singer in my freetime. I also enjoy
+                  playing videogames as a hobby
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Mobile Version-->
+          <div class="col-sm-6 margin-second-cards d-none d-md-block d-lg-none">
+            <div class="card shadow-green">
+              <div class="card-body" align="center">
+                <h5 class="card-title card-green">Music &amp; Games</h5>
+                <p class="card-info">
+                  Songwritter, pianist and singer in my freetime. I also enjoy
+                  playing videogames as a hobby
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4"></div>
+        </div>
+      </div>
+    </div>
 
-
-
+    <div class="container d-none d-lg-block">
+      <div class="row d-flex justify-content-end">
+        <div class="col-3 moving-memoji">
+          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/464/original/icon_3.PNG?1634855683" class="memoji-about img-fluid" alt="icon of Mili">
+        </div>
+      </div>
+    </div>
+    <!--Memoji about me for mobile-->
+    <div class="container">
+      <div class="row d-flex justify-content-center d-block d-sm-block d-md-none" align="center">
+        <div class="col-12 memoji-mobile">
+          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/464/original/icon_3.PNG?1634855683" class="img-fluid" alt="icon of Mili">
+        </div>
+      </div>
+    </div>
+    <!--About me quote-->
+    <div class="container moving-quote-mobile">
+      <div class="row" align="center">
+        <div class="col-12 d-flex justify-content-center" align="center">
+          <h3 class="about-me-quote">Multitalented. Intuitive. Dedicated.</h3>
+        </div>
+        <div class="col-12 moving-click d-flex justify-content-center" align="center">
+          <p class="color-gradient-yellow">
+            Wanna know more? Visit my
+            <a href="https://www.instagram.com/mili.codes/" target="_blank" class="link-insta">Instagram</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<div class="container-fluid background-footer">
+  <div class="row">
+    <!--Line-->
+    <div class="container d-flex justify-content-center">
+      <div class="line-footer" id="contact"></div>
+    </div>
+    <div class="col-12 padding-footer">
+      <h3 align="center" class="size-quote second-part-quote mobile-size-footer" style="font-size: 110px;">
+        I Love You Beyond the Infinty and Back
+      </h3>
+      <div class="col-12" align="center">
+        <form>
+          <button type="submit" value="Go to Contact page" class="btn btn-outline-primary">
+            <a href="https://api.whatsapp.com/send?phone=+6281236162626" style="color: white; text-decoration: none; padding-left: 20px; padding-right: 20px;">
+            Text Me <i class="fas fa-chevron-right ps-1" aria-hidden="true"></i>
+          </a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer links-->
+<div class="container-fluid border-top-footer">
+  <div class="row">
+    <div class="col">
+      <p class="footer-description" style="text-align: center;">©2021 Kriesna B. Pratama</p>
+    </div>
 
-<script>
-window.onscroll = function() {myFunction()};
+    
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
 
 </body>
 </html>
